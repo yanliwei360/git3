@@ -1,10 +1,11 @@
 # ignore map, miou, datasets
 map_out/
 miou_out/
-VOCdevkit/
+VOCdevkit/VOC2007
 datasets/
 Medical_Datasets/
 lfw/
+.idea/
 
 
 
@@ -15,6 +16,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.pth
 
 # Distribution / packaging
 .Python
